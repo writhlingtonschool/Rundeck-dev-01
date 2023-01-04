@@ -10,5 +10,6 @@ Write-Host $(Get-Date)
 
 $ErrorActionPreference="Continue"
 
+Write-Host "Hello..."
 
 #Stop-Transcript
