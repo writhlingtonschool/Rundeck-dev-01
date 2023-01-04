@@ -11,6 +11,7 @@ Write-Host $(Get-Date)
 $ErrorActionPreference="Continue"
 
 Write-Host "Hello..."
-Write-Host "$email"
+Write-Host "email from rundeck var:" $email
+Write-Host "Api key from rundeck var" $GLPIapiAppToken
 
 #Stop-Transcript
